@@ -1,9 +1,10 @@
 {
   "name": "aula-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Passo a passo para criar a mesma API  usando TypeScript.",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
@@ -21,6 +22,14 @@
     "@types/node": "^26.2.0",
     "sequelize-cli": "^6.6.5",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^7.0.2"
-  }
+    "typescript": "^5.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandagvenda/backend-devops.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nandagvenda/backend-devops/issues"
+  },
+  "homepage": "https://github.com/nandagvenda/backend-devops#readme"
 }
